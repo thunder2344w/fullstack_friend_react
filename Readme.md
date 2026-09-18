@@ -1,4 +1,5 @@
 live -- https://fullstack-friend-react.onrender.com
+
 ### Run locally
 
 1. Install and build the frontend:
@@ -16,10 +17,6 @@ live -- https://fullstack-friend-react.onrender.com
 	npm install
 	npm start
 	```
-
-Open `http://localhost:3000`. During frontend development, use `npm run dev` inside `client/`.
-
-The React client includes login, signup, profile details, friend requests, friend management, unread counts, and chat history/message sending.
 
 # Some login id
 email- qwerty@gmail.com  password- qwert12345  
