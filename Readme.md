@@ -1,4 +1,4 @@
-live -- `https://fullstack-friend-react.onrender.com`
+live -- https://fullstack-friend-react.onrender.com
 ### Run locally
 
 1. Install and build the frontend:
