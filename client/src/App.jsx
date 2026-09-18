@@ -87,7 +87,7 @@ function Login() {
   }
 
   return (
-    <AuthLayout eyebrow="WELCOME BACK" title="Good to see you again." subtitle="Log in to check in with your people.">
+    <AuthLayout eyebrow="WELCOME BACK" title="" subtitle="Log in to check in with your people.">
       <form className="stack-form" onSubmit={submit}>
         <label>Email<input type="email" value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} placeholder="you@example.com" required /></label>
         <label>Password<input type="password" value={form.password} onChange={(event) => setForm({ ...form, password: event.target.value })} placeholder="Your password" required /></label>

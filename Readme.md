@@ -1,6 +1,3 @@
-## Fullstack Friends
-
-The frontend is now a React app built with Vite. The Express API remains in `server/`, and the production server serves the compiled React app from `client/dist/`.
 
 ### Run locally
 
