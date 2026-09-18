@@ -1,4 +1,32 @@
-live link - https://first-app-7o36.onrender.com/login.html
+## Fullstack Friends
+
+The frontend is now a React app built with Vite. The Express API remains in `server/`, and the production server serves the compiled React app from `client/dist/`.
+
+### Run locally
+
+1. Install and build the frontend:
+
+	```powershell
+	cd client
+	npm install
+	npm run build
+	```
+
+2. Start the API and production frontend:
+
+	```powershell
+	cd ../server
+	npm install
+	npm start
+	```
+
+Open `http://localhost:3000`. During frontend development, use `npm run dev` inside `client/`.
+
+The React client includes login, signup, profile details, friend requests, friend management, unread counts, and chat history/message sending.
+
+### Existing deployment
+
+The previous deployment URL was `https://first-app-7o36.onrender.com/login.html`. After deploying this version, use the root URL because routing is handled by the React app.
 
 # Some login id
 email- qwerty@gmail.com  password- qwert12345  

@@ -118,3 +118,17 @@
 2026-04-12T21:56:54.191Z INFO JWT_SECRET present: true
 2026-04-12T21:59:45.308Z INFO login request body: {"email":"test@gmail.com","password":"test@123"}
 2026-04-12T21:59:45.308Z INFO JWT_SECRET present: true
+2026-09-18T18:07:03.895Z INFO login request body: {"email":"harit@gmail.com","password":"123456789"}
+2026-09-18T18:07:03.895Z INFO JWT_SECRET present: true
+2026-09-18T18:14:00.924Z INFO login request body: {"email":"harit@gmail.com","password":"123456789"}
+2026-09-18T18:14:00.924Z INFO JWT_SECRET present: true
+2026-09-18T18:16:14.192Z INFO login request body: {"password":"test@123","email":"test@gmail.com"}
+2026-09-18T18:16:14.192Z INFO JWT_SECRET present: true
+2026-09-18T18:16:18.469Z INFO login request body: {"password":"test@123","email":"test@gmail.com"}
+2026-09-18T18:16:18.469Z INFO JWT_SECRET present: true
+2026-09-18T18:17:19.194Z INFO login request body: {"password":"test@123","email":"test@gmail.com"}
+2026-09-18T18:17:19.195Z INFO JWT_SECRET present: true
+2026-09-18T18:19:30.081Z INFO login request body: {"email":"harit@gmail.com","password":"123456789"}
+2026-09-18T18:19:30.081Z INFO JWT_SECRET present: true
+2026-09-18T18:24:37.087Z INFO login request body: {"email":"harit@gmail.com","password":"123456789"}
+2026-09-18T18:24:37.087Z INFO JWT_SECRET present: true

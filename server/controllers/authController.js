@@ -128,12 +128,27 @@ exports.login = async (req, res) => {
     }
 };
 
-exports.profile = (req, res) => {
-    res.json({
-        message: "Welcome to your profile",
-        user: req.user,
-    });
-}
+exports.profile = async (req, res) => {
+    try {
+        const user = await User.findById(req.user.id).select("name email");
+
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+
+        res.json({
+            message: "Welcome to your profile",
+            user: {
+                id: user.id,
+                name: user.name,
+                email: user.email,
+            },
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: "Server error" });
+    }
+};
 
 exports.logout = (req, res) => {
     res.clearCookie("token", {

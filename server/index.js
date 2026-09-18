@@ -29,7 +29,7 @@ app.use(cors({
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "../client")));
+app.use(express.static(path.join(__dirname, "../client/dist")));
 
 mongoose.connect(process.env.MONGO_URI, {
     serverSelectionTimeoutMS: 10000,
@@ -50,7 +50,7 @@ app.use("/api/chat", chatRoutes);
 
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../client/index.html"));
+    res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
 

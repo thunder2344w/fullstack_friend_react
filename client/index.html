@@ -1,57 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <title>Home</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <main class="page-container">
-    <header class="page-header">
-      <h1>Friends Dashboard</h1>
-      <p>Manage your profile, friend requests, and start chatting.</p>
-    </header>
-
-    <section class="card dashboard-grid">
-      <div class="card-section">
-        <h2>Profile</h2>
-        <div id="profile" class="content-block"></div>
-      </div>
-
-      <div class="card-section">
-        <h2>Send Friend Request</h2>
-        <div class="form-row">
-          <input type="text" id="friendEmail" placeholder="Enter friend's email">
-          <button id="sendRequestBtn" class="primary-btn">Send Request</button>
-        </div>
-        <p id="sendRequestMesssage" class="status-message"></p>
-      </div>
-    </section>
-
-    <section class="card grid-2">
-      <div>
-        <h2>Pending Sent Requests</h2>
-        <div id="sentRequests" class="list-block"></div>
-      </div>
-      <div>
-        <h2>Friend Requests</h2>
-        <div id="friendRequests" class="list-block"></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Friends</h2>
-      <div id="friendsList" class="list-block"></div>
-    </section>
-
-    <p id="message" class="status-message"></p>
-
-    <button id="logoutBtn" class="secondary-btn">Logout</button>
-  </main>
-
-    <script src="app.js?v=3"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b5e58" />
+    <title>friends | Your circle, closer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
